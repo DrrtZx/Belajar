@@ -1,0 +1,155 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+
+    
+}
+
+.navbar {
+    background-color: #0088cc;
+    height: 10vh;
+    width: 100%;
+}
+
+
+.ul-navbar{
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.li-navbar{
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+     display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.li-navbar:hover  {   
+    background-color: rgb(157, 145, 169);
+    transition: .3s ease-in-out;
+    transition-delay: .5s;
+    border-radius: 9px;
+}
+.a-navbar{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Content1 */
+.content1{
+    background-color: #4dc4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+   -webkit-box-shadow: 8px 8px 10px -1px rgba(88, 96, 200, 1);
+-moz-box-shadow: 8px 8px 10px -1px rgba(88, 96, 200, 1);
+box-shadow: 8px 8px 10px -1px rgba(88, 96, 200, 1);
+}
+.a-ontent{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 9px;
+        -webkit-box-shadow: 8px 8px 24px 3px rgba(66, 68, 90, 1);
+-moz-box-shadow: 8px 8px 24px 3px rgba(66, 68, 90, 1);
+box-shadow: 8px 8px 24px 3px rgba(66, 68, 90, 1);
+}
+.gambar{
+    height: 100px;
+    width: 100px;
+}
+
+.h1c {
+    color: rgb(255, 255, 255);
+    background-color: #1ab3ff;
+    font-size: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 9px;
+-webkit-box-shadow: 20px 14px 21px 1px rgba(38, 70, 61, 1);
+-moz-box-shadow: 20px 14px 21px 1px rgba(38, 70, 61, 1);
+box-shadow: 20px 14px 21px 1px rgba(38, 70, 61, 1);
+
+}
+
+.h1-p-a{
+    font-size: 25;
+    margin: 10px;
+    text-decoration: none;
+    
+}
+.h1-p{
+        list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    text-decoration: none;      
+}
+
+.h1-p-a {
+  color: white;              /* warna link normal */
+  text-decoration: none;     /* hilangin underline */
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.h1-p-a:hover{
+    background-color: rgb(157, 145, 169);
+    transition: .3s ease-in-out;
+    transition-delay: .5s;
+    border-radius: 9px;
+    color: rgb(12, 5, 19);
+}
+
+.hc{
+  position: relative;
+  bottom: 320;   /* geser ke bawah */
+  right: 300;  /* geser ke kanan */
+    color: rgb(255, 255, 255);
+}
+
+
+/* Content1 End */
+
+
+
+/* Footer  */
+.container-footer{
+    height: 10vh;
+    background-color: #0099e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1f{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    
+}
+
+/* Foot End */
