@@ -25,5 +25,5 @@ function generateBiodata() {
 
 console.log(nama);
 console.log(usia);
-console.log("Wish me luckk")
+console.log("Wish mee luckk")
 generateBiodata();
