@@ -126,8 +126,7 @@ box-shadow: 20px 14px 21px 1px rgba(38, 70, 61, 1);
 
 .hc{
   position: relative;
-  bottom: 320;   /* geser ke bawah */
-  right: 300;  /* geser ke kanan */
+ 
     color: rgb(255, 255, 255);
 }
 
@@ -152,4 +151,11 @@ box-shadow: 20px 14px 21px 1px rgba(38, 70, 61, 1);
     
 }
 
-/* Foot End */
+/* Foot Endw */
+
+#biodata {
+    background-color: rgb(95, 61, 61);
+    width: 233;
+    height: 322;
+
+}
